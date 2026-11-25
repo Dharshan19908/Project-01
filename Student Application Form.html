@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Registration Form</title>
+  <style>
+    /* Center the main container div on the page with a white background and red borders/sides */
+    body {
+      background-color: rgb(25, 25, 27); /* Matches the red background in your second image */
+      margin: 5;
+      padding: 20px;
+    }
+
+    .form-container {
+      width: 500px;
+      background-color: #60686b;
+      margin:  auto; /* This centers the div horizontally */
+      padding: 30px;
+      box-sizing:content-box;
+      text-align: left; /* Keeps text aligned normally inside the form */
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 6px;
+      box-sizing:content-box;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- This div centers your entire form on the page -->
+  <div class="form-container">
+    <form>
+      <h2>Student Registration Form</h2>
+
+      <div class="form-group">
+        <label>Student Name</label><br>
+        <input type="text">
+      </div>
+
+      <div class="form-group">
+        <label>Father Name</label><br>
+        <input type="text">
+      </div>
+
+      <div class="form-group">
+        <label>Mother Name</label><br>
+        <input type="text">
+      </div>
+
+      <div>
+        <label>Gender:</label>
+    <select style="width: 100%; padding: 6px;">
+        <option>Male</option>
+        <option>Female</option>
+      </select>
+      </div>
+
+      <div class="form-group">
+        <label>Mobile No.</label><br>
+        <input type="text">
+      </div>
+
+      <div class="form-group">
+        <label>Email Id</label><br>
+        <input type="email">
+      </div>
+
+      <div>
+        <label>Enter Date of birth </label><input type="date"><br>
+      </div>
+
+      <div class="form-group">
+        <label>Address</label><br>
+        <textarea rows="6"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label>Parent No:</label><br>
+        <textarea rows="1"></textarea>
+      </div>
+
+      <div class="form-group">
+      <label>Department:</label>
+      <select style="width: 100%; padding: 6px;">
+        <option>CSE</option>
+        <option>IT</option>
+        <option>ECE</option>
+      </select>
+    </div>
+
+      <div class="form-group" style="text-align: center;">
+        <button type="submit" style="background: rgb(237, 1, 1); color: white; padding: 10px 20px;">Submit</button>
+      </div>
+
+    </form>
+  </div>
+
+</body>
+</html>
